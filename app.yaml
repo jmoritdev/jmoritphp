@@ -17,4 +17,7 @@ handlers:
 
 - url: /errormessage\.php
   script: errormessage.php
+  
+- url: /bustrip\.php
+  script: bustrip.php
 
