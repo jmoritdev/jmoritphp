@@ -20,4 +20,7 @@ handlers:
   
 - url: /bustrip\.php
   script: bustrip.php
+  
+- url: /christmastree\.php
+  script: christmastree.php
 
