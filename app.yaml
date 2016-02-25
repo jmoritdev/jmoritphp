@@ -29,4 +29,7 @@ handlers:
   
 - url: /barberagenda\.php
   script: barberagenda.php
+  
+- url: /functions\.php
+  script: functions.php
 
