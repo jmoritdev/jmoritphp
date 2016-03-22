@@ -10,7 +10,8 @@
     </body>
 </html>
 <?php
-    if(!empty($_POST['username']) && !empty($_POST['adress']) && !empty($_POST['email']) && !empty($_POST['password'])){
+    if(!empty($_POST['username']) && !empty($_POST['adress']) 
+            && !empty($_POST['email']) && !empty($_POST['password'])){
         echo("Gebruikersnaam: ".$_POST['username']."<br>");
         echo("Adres: ".$_POST['adress']."<br>");
         echo("Email: ".$_POST['email']."<br>");

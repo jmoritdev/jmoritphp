@@ -32,4 +32,17 @@ handlers:
   
 - url: /functions\.php
   script: functions.php
+  
+- url: /login\.php
+  script: login.php
+  
+- url: /logout\.php
+  script: logout.php
+  
+- url: /userpage\.php
+  script: userpage.php
+  
+- url: /adminpage\.php
+  script: adminpage.php  
+
 
