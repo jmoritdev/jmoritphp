@@ -44,5 +44,8 @@ handlers:
   
 - url: /adminpage\.php
   script: adminpage.php  
+  
+- url: /radiostation\.php
+  script: radiostation.php
 
 
