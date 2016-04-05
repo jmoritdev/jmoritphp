@@ -8,7 +8,10 @@ handlers:
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
-
+  
+- url: /images
+  static_dir: images
+  
 - url: /
   script: index.php
   
@@ -47,5 +50,8 @@ handlers:
   
 - url: /radiostation\.php
   script: radiostation.php
+  
+- url: /monkeybusiness\.php
+  script: monkeybusiness.php  
 
 

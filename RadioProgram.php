@@ -11,7 +11,6 @@ class RadioProgram {
     
     function addSong($songName){
         $this-> songs[] = $songName;
-        return null;
     }
 
     function getName() {
