@@ -1,5 +1,4 @@
 <?php
-
 include "MonkeyOverview.php";
 include "Monkey.php";
 
@@ -27,21 +26,28 @@ $mo->addMonkey(new Monkey("Spinaap"));
 <html>
     <head>
         <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+        <?php include "layout.php" ?>
     </head>
     <style>
         h2{
-           font-family: Bangers, cursive; 
+            font-family: Bangers, cursive; 
         }
     </style>
     <body>
-        <img src="/images/monkey-business.jpg"/><br>
-        <h1 style="font-family:arial">Select your monkey!</h1><br>
-        <img src="/images/monkey_swings.png"/><br>
-        
-        <?php foreach ($mo->getMonkeyList() as $monkey){?>
-        <h2>
-            <a href="https://www.google.nl/search?q=<?php echo($monkey->getName()) ?>&tbm=isch"><?php echo ($monkey->getName()); ?></a>
-        </h2><br>
-        <?php } ?>
+        <div class="container">
+            <div class="content">
+                <img src="/images/monkey-business.jpg"/><br>
+                <h1 style="font-family:arial">Select your monkey!</h1><br>
+                <img src="/images/monkey_swings.png"/><br>
+
+                <?php foreach ($mo->getMonkeyList() as $monkey) { ?>
+                    <h2>
+                        <a href="https://www.google.nl/search?q=<?php echo($monkey->getName()) ?>&tbm=isch"><?php echo ($monkey->getName()); ?></a>
+                    </h2><br>
+                <?php } ?>
+                <br>
+                <a href="https://github.com/jmoritdev/jmoritphp/blob/master/monkeybusiness.php">Source code</a>
+            </div>
+        </div>
     </body>
 </html>
