@@ -5,6 +5,12 @@
     <body>
         <div class="container">
             <div class="content">
+                <p>
+                    Gebruik de knop hierboven om te navigeren tussen de verschillende php opdrachten die ik gemaakt heb.
+                    Bij de opdracht zelf staat een link naar de source code.<br><br>
+                    
+                    Dit is een voorbeeld van een form in PHP. Er worden geen gegevens opgeslagen.<br><br>
+                </p>
                 <form action="index.php" method="POST">
                     Gebruikersnaam: <input type="text" name="username"/><br>
                     Adres: <input type="text" name="adress"/><br>
